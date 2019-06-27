@@ -1,0 +1,103 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b6909bdc-c87a-4649-8298-9bca92f66cef": {
+        "id": "b6909bdc-c87a-4649-8298-9bca92f66cef",
+        "parent": null,
+        "name": "kt",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "64f74b5a-6a3e-4d42-8489-369974ae2f12",
+          "d6716300-45fd-4ab7-89c2-1a3c738764ae",
+          "fd0b9293-1247-4935-8bc3-ec8fc8cb22a6"
+        ],
+        "isRemovable": false,
+        "filePath": "kt"
+      },
+      "64f74b5a-6a3e-4d42-8489-369974ae2f12": {
+        "id": "64f74b5a-6a3e-4d42-8489-369974ae2f12",
+        "parent": "b6909bdc-c87a-4649-8298-9bca92f66cef",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kt/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "d6716300-45fd-4ab7-89c2-1a3c738764ae": {
+        "id": "d6716300-45fd-4ab7-89c2-1a3c738764ae",
+        "parent": "b6909bdc-c87a-4649-8298-9bca92f66cef",
+        "name": "j1.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kt/j1.js",
+        "code": "//comment"
+      },
+      "fd0b9293-1247-4935-8bc3-ec8fc8cb22a6": {
+        "id": "fd0b9293-1247-4935-8bc3-ec8fc8cb22a6",
+        "parent": "b6909bdc-c87a-4649-8298-9bca92f66cef",
+        "name": "c1.css",
+        "type": "CSS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kt/c1.css",
+        "code": "/*comment1/*"
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "b6909bdc-c87a-4649-8298-9bca92f66cef",
+    "openFiles": [
+      "64f74b5a-6a3e-4d42-8489-369974ae2f12",
+      "d6716300-45fd-4ab7-89c2-1a3c738764ae",
+      "fd0b9293-1247-4935-8bc3-ec8fc8cb22a6"
+    ],
+    "currentFileId": "fd0b9293-1247-4935-8bc3-ec8fc8cb22a6",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "kt",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1561624498494
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "kt",
+      "url": "https://github.com/Kumudikatest/kt1"
+    }
+  }
+}
